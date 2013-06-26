@@ -1,0 +1,108 @@
+body{
+	font-family: 'Exo', sans-serif;
+	font-weight: normal;	
+}
+h2{
+	font-family: 'Exo', sans-serif;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.hero-unit{
+	background: url("../img/bkg-3.jpg") no-repeat bottom center;
+	background-size: 100% 100%;
+	border-radius: 0px;
+	padding: 20px;	
+}
+.hero-unit h1{
+	font-family: 'Exo', sans-serif;
+	font-weight: 900;
+	letter-spacing: -2px;
+	margin: 0;
+	line-height: 1.00;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.hero-unit .lead {
+	font-family: 'Exo', sans-serif;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 1.00;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}		
+.hero-unit h3{
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.hero-unit .container{
+	position: relative;
+	z-index: 9;
+}
+
+#on-the-web div{
+	margin: 0 0 12px 45px;
+}
+#on-the-web h2{
+	margin: 0 0 10px 0;
+}
+#on-the-web a{
+	color: #6C6C6C;
+	text-decoration: none;
+	outline: none;
+}
+#on-the-web a:hover, #on-the-web a:visited{
+	color:#B35047;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 50px;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-github, .icon-twitter, .icon-linkedin {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-github:before {
+	content: "\e000";
+}
+.icon-twitter:before {
+	content: "\e001";
+}
+.icon-linkedin:before {
+	content: "\e002";
+}
